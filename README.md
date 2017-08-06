@@ -1,4 +1,6 @@
-# A CORS fairing for Rocket
+# A CORS fairing for Rocket.rs
+
+[![Build Status](https://travis-ci.org/fabricedesre/rocket_cors.svg?branch=master)](https://travis-ci.org/fabricedesre/rocket_cors)
 
 This crate provides CORS support for [Rocket](https://rocket.rs) by implementing a fairing.
 
