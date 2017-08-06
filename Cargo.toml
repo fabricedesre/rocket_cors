@@ -1,0 +1,10 @@
+[package]
+name = "rocket_cors"
+version = "0.1.0"
+authors = ["Fabrice Desré <fabrice@desre.org>"]
+
+[dependencies]
+hyper = "0.10" # Keep in sync with Rocket itself.
+rocket = { git = "https://github.com/SergioBenitez/Rocket.git" }
+rocket_codegen = { git = "https://github.com/SergioBenitez/Rocket.git" }
+unicase = "1.4" # Using 1.4 to match hyper dependency.
